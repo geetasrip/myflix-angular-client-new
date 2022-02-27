@@ -8,8 +8,14 @@ import { Observable, throwError, catchError } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 //Declaring the api url that will provide data for the client app
-const apiUrl = '';
-
+const apiUrl = 'https://my-movies-app-new.herokuapp.com/';
+export interface User {
+  _id: string;
+  FavoriteMovies: Array<string>;
+  Username: string;
+  Email: string;
+  Birthdate: Date;
+}
 @Injectable({
   providedIn: 'root'
 })
