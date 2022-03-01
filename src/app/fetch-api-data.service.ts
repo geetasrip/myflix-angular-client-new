@@ -158,28 +158,22 @@ export class UserRegistrationService {
       );
   }
 
-  /**
-   * call API end-point to add a movie to the user's favorite list
-   * @param MovieID {any}
-   * @returns the user's favorite list in json format
-   */
-  addFavoriteMovie(MovieID: any): Observable<any> {
+  // Add a movie to user favs
+  addFavoriteMovie(id: string): Observable<any> {
     const token = localStorage.getItem('token');
-    const Username = localStorage.getItem('user');
-    console.log('debug');
-    console.log(token);
-    console.log(Username);
-
+    const username = localStorage.getItem('user');
     return this.http
-      .put(apiUrl + '/users/' + Username + '/movies/' + MovieID, null, {
-        headers: new HttpHeaders({ Authorization: 'Bearer ' + token })
+      .post(apiUrl + `/users/${username}/movies/${id}`, null, {
+        headers: new HttpHeaders({
+          Authorization: 'Bearer ' + token
+        })
       })
       .pipe(
         map(this.extractResponseData),
         catchError(this.handleError)
       );
   }
-
+  //https://my-movies-app-new.herokuapp.com/users/test9090908989000/movies/60c6ef56e3b43ae28bea2852
   /**
    * call API end-point to edit the user's informations
    * @param Username {any}
