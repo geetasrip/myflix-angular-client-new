@@ -1,0 +1,1570 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>my-flix-angular-client documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">my-flix-angular-client documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  UserProfileComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/user-profile/user-profile.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-user-profile</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./user-profile.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./user-profile.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#dialog" >dialog</a>
+                            </li>
+                            <li>
+                                <a href="#FavMovies" >FavMovies</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#fetchApiData" >fetchApiData</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#router" >router</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#snackBar" >snackBar</a>
+                            </li>
+                            <li>
+                                <a href="#user" >user</a>
+                            </li>
+                            <li>
+                                <a href="#Username" >Username</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#deleteUser" >deleteUser</a>
+                            </li>
+                            <li>
+                                <a href="#getFavoriteMovies" >getFavoriteMovies</a>
+                            </li>
+                            <li>
+                                <a href="#getUserInfo" >getUserInfo</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#openDirectorDialog" >openDirectorDialog</a>
+                            </li>
+                            <li>
+                                <a href="#openEditProfileFormDialog" >openEditProfileFormDialog</a>
+                            </li>
+                            <li>
+                                <a href="#openGenreDialog" >openGenreDialog</a>
+                            </li>
+                            <li>
+                                <a href="#openSynopsisDialog" >openSynopsisDialog</a>
+                            </li>
+                            <li>
+                                <a href="#removeFavoriteMovie" >removeFavoriteMovie</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(fetchApiData: <a href="../injectables/UserRegistrationService.html" target="_self">UserRegistrationService</a>, snackBar: MatSnackBar, dialog: MatDialog, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/user-profile/user-profile.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fetchApiData</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserRegistrationService.html" target="_self" >UserRegistrationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>snackBar</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatSnackBar</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteUser"></a>
+                    <span class="name">
+                        <span ><b>deleteUser</b></span>
+                        <a href="#deleteUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>deleteUser()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="90"
+                            class="link-to-prism">src/app/user-profile/user-profile.component.ts:90</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>call API end-point to remove the current user</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>remove status</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getFavoriteMovies"></a>
+                    <span class="name">
+                        <span ><b>getFavoriteMovies</b></span>
+                        <a href="#getFavoriteMovies"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getFavoriteMovies()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="54"
+                            class="link-to-prism">src/app/user-profile/user-profile.component.ts:54</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>get user&#39;s FavoriteMovies from the user&#39;s data</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getUserInfo"></a>
+                    <span class="name">
+                        <span ><b>getUserInfo</b></span>
+                        <a href="#getUserInfo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getUserInfo()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="40"
+                            class="link-to-prism">src/app/user-profile/user-profile.component.ts:40</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>call API end-point to get the user&#39;s information</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>user&#39;s data in json format</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="29"
+                            class="link-to-prism">src/app/user-profile/user-profile.component.ts:29</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openDirectorDialog"></a>
+                    <span class="name">
+                        <span ><b>openDirectorDialog</b></span>
+                        <a href="#openDirectorDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openDirectorDialog(name: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, bio: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, birth: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, death: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="128"
+                            class="link-to-prism">src/app/user-profile/user-profile.component.ts:128</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>open a dialog to display the DirectorCardComponent</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>name</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>bio</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>birth</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>death</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openEditProfileFormDialog"></a>
+                    <span class="name">
+                        <span ><b>openEditProfileFormDialog</b></span>
+                        <a href="#openEditProfileFormDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openEditProfileFormDialog()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="104"
+                            class="link-to-prism">src/app/user-profile/user-profile.component.ts:104</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>open a dialog to edit the user profile</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openGenreDialog"></a>
+                    <span class="name">
+                        <span ><b>openGenreDialog</b></span>
+                        <a href="#openGenreDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openGenreDialog(name: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, description: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="114"
+                            class="link-to-prism">src/app/user-profile/user-profile.component.ts:114</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>open a dialog to display the GenreCardComponent</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>name</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>description</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openSynopsisDialog"></a>
+                    <span class="name">
+                        <span ><b>openSynopsisDialog</b></span>
+                        <a href="#openSynopsisDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openSynopsisDialog(title: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, description: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="145"
+                            class="link-to-prism">src/app/user-profile/user-profile.component.ts:145</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>open a dialog to display the SynopsisCardComponent</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>title</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>description</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="removeFavoriteMovie"></a>
+                    <span class="name">
+                        <span ><b>removeFavoriteMovie</b></span>
+                        <a href="#removeFavoriteMovie"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>removeFavoriteMovie(MovieId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, title: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="70"
+                            class="link-to-prism">src/app/user-profile/user-profile.component.ts:70</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>use API end-point to remove user favorite</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>MovieId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>title</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>updated user&#39;s data in json format</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dialog"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>dialog</b></span>
+                        <a href="#dialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatDialog</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/user-profile/user-profile.component.ts:25</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="FavMovies"></a>
+                    <span class="name">
+                        <span ><b>FavMovies</b></span>
+                        <a href="#FavMovies"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/user-profile/user-profile.component.ts:20</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fetchApiData"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>fetchApiData</b></span>
+                        <a href="#fetchApiData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/UserRegistrationService.html" target="_self" >UserRegistrationService</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/user-profile/user-profile.component.ts:23</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="router"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>router</b></span>
+                        <a href="#router"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/user-profile/user-profile.component.ts:26</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="snackBar"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>snackBar</b></span>
+                        <a href="#snackBar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatSnackBar</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/user-profile/user-profile.component.ts:24</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="user"></a>
+                    <span class="name">
+                        <span ><b>user</b></span>
+                        <a href="#user"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/user-profile/user-profile.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="Username"></a>
+                    <span class="name">
+                        <span ><b>Username</b></span>
+                        <a href="#Username"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>localStorage.getItem(&#x27;user&#x27;)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/user-profile/user-profile.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { UserRegistrationService, User } from &#x27;../fetch-api-data.service&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { MatSnackBar } from &#x27;@angular/material/snack-bar&#x27;;
+import { MatDialog } from &#x27;@angular/material/dialog&#x27;;
+import { EditProfileFormComponent } from &#x27;../edit-profile-form/edit-profile-form.component&#x27;;
+import { GenreCardComponent } from &#x27;../genre-card/genre-card.component&#x27;;
+import { DirectorCardComponent } from &#x27;../director-card/director-card.component&#x27;;
+import { SynopsisCardComponent } from &#x27;../synopsis-card/synopsis-card.component&#x27;;
+
+@Component({
+  selector: &#x27;app-user-profile&#x27;,
+  templateUrl: &#x27;./user-profile.component.html&#x27;,
+  styleUrls: [&#x27;./user-profile.component.scss&#x27;]
+})
+export class UserProfileComponent implements OnInit {
+  user: any &#x3D; {};
+  Username &#x3D; localStorage.getItem(&#x27;user&#x27;);
+
+  FavMovies: any[] &#x3D; [];
+
+  constructor(
+    public fetchApiData: UserRegistrationService,
+    public snackBar: MatSnackBar,
+    public dialog: MatDialog,
+    public router: Router
+  ) {}
+
+  ngOnInit(): void {
+    this.getUserInfo();
+    this.getFavoriteMovies();
+  }
+
+  /**
+   * call API end-point to get the user&#x27;s information
+   * @function getUser
+   * @param Username
+   * @return user&#x27;s data in json format
+   */
+  getUserInfo(): void {
+    const user &#x3D; localStorage.getItem(&#x27;user&#x27;);
+    if (user) {
+      this.fetchApiData.getUser(user).subscribe((resp: User) &#x3D;&gt; {
+        this.user &#x3D; resp;
+
+        console.log(this.user);
+      });
+    }
+  }
+
+  /**
+   * get user&#x27;s FavoriteMovies from the user&#x27;s data
+   */
+  getFavoriteMovies(): void {
+    const user &#x3D; localStorage.getItem(&#x27;user&#x27;);
+    this.fetchApiData.getUser(user).subscribe((resp: any) &#x3D;&gt; {
+      this.FavMovies &#x3D; resp.FavoriteMovies;
+      console.log(this.FavMovies);
+      return this.FavMovies;
+    });
+  }
+
+  /**
+   * use API end-point to remove user favorite
+   * @function deleteFavoriteMovie
+   * @param MovieId {string}
+   * @param title {string}
+   * @returns updated user&#x27;s data in json format
+   */
+  removeFavoriteMovie(MovieId: string, title: string): void {
+    this.fetchApiData.deleteFavoriteMovie(MovieId).subscribe((resp: any) &#x3D;&gt; {
+      console.log(resp);
+      this.snackBar.open(
+        &#x60;${title} has been removed from your favorites!&#x60;,
+        &#x27;OK&#x27;,
+        {
+          duration: 4000
+        }
+      );
+      this.ngOnInit();
+    });
+  }
+
+  /**
+   * call API end-point to remove the current user
+   * @function deleteUser
+   * @param Username {any}
+   * @return remove status
+   */
+  deleteUser(): void {
+    this.fetchApiData.deleteUser(this.Username).subscribe(() &#x3D;&gt; {
+      this.snackBar.open(&#x60;${this.Username} has been removed!&#x60;, &#x27;OK&#x27;, {
+        duration: 4000
+      });
+      localStorage.clear();
+    });
+    this.router.navigate([&#x27;welcome&#x27;]);
+  }
+
+  /**
+   * open a dialog to edit the user profile
+   * @module EditProfileFormComponent
+   */
+  openEditProfileFormDialog(): void {
+    this.dialog.open(EditProfileFormComponent, {
+      width: &#x27;280px&#x27;
+    });
+  }
+  /**
+   *open a dialog to display the GenreCardComponent
+   * @param name {string}
+   * @param description {string}
+   */
+  openGenreDialog(name: string, description: string): void {
+    this.dialog.open(GenreCardComponent, {
+      data: { name: name, description: description },
+      width: &#x27;300px&#x27;
+    });
+  }
+
+  /**
+   * open a dialog to display the DirectorCardComponent
+   * @param name {string}
+   * @param bio {string}
+   * @param birth {string}
+   * @param death {string}
+   */
+  openDirectorDialog(
+    name: string,
+    bio: string,
+    birth: string,
+    death: string
+  ): void {
+    this.dialog.open(DirectorCardComponent, {
+      data: { name: name, bio: bio, birth: birth, death: death },
+      width: &#x27;300px&#x27;
+    });
+  }
+
+  /**
+   * open a dialog to display the SynopsisCardComponent
+   * @param title {string}
+   * @param description {string}
+   */
+  openSynopsisDialog(title: string, description: string): void {
+    this.dialog.open(SynopsisCardComponent, {
+      data: { title: title, description: description },
+      width: &#x27;300px&#x27;
+    });
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;profile-container&quot;&gt;
+  &lt;mat-card class&#x3D;&quot;mat-elevation-z10&quot;&gt;
+    &lt;mat-card-header&gt;
+      &lt;mat-card-title&gt;User Profile&lt;/mat-card-title&gt;
+    &lt;/mat-card-header&gt;
+    &lt;mat-divider&gt;&lt;/mat-divider&gt;
+    &lt;div class&#x3D;&quot;content-container&quot;&gt;
+      &lt;mat-card-content&gt;
+        &lt;mat-icon&gt;person&lt;/mat-icon&gt;
+        &lt;span id&#x3D;&quot;profile-title&quot;&gt;Username: &lt;/span
+        &gt;{{ user.Username }}&lt;/mat-card-content
+      &gt;
+      &lt;mat-card-content&gt;
+        &lt;mat-icon&gt;email &lt;/mat-icon&gt;
+        &lt;span id&#x3D;&quot;profile-title&quot;&gt;Email: &lt;/span
+        &gt;{{ user.Email }}&lt;/mat-card-content
+      &gt;
+      &lt;mat-card-content&gt;
+        &lt;mat-icon&gt;cake&lt;/mat-icon&gt;
+        &lt;span id&#x3D;&quot;profile-title&quot;&gt;Birthday: &lt;/span
+        &gt;{{ user.Birthday | date }}&lt;/mat-card-content
+      &gt;
+    &lt;/div&gt;
+    &lt;mat-card-actions&gt;
+      &lt;button
+        mat-raised-button
+        class&#x3D;&quot;edit-btn&quot;
+        (click)&#x3D;&quot;openEditProfileFormDialog()&quot;
+      &gt;
+        Edit Profile
+      &lt;/button&gt;
+      &lt;button mat-raised-button class&#x3D;&quot;delete-btn&quot; (click)&#x3D;&quot;deleteUser()&quot;&gt;
+        Delete User
+      &lt;/button&gt;
+    &lt;/mat-card-actions&gt;
+  &lt;/mat-card&gt;
+&lt;/div&gt;
+&lt;mat-divider&gt;&lt;/mat-divider&gt;
+
+&lt;h2 class&#x3D;&quot;user-fav&quot;&gt;Your Favorite Movies&lt;/h2&gt;
+&lt;div class&#x3D;&quot;favorites-container&quot;&gt;
+  &lt;mat-card
+    *ngFor&#x3D;&quot;let favorite of FavMovies; let i &#x3D; index&quot;
+    class&#x3D;&quot;favorite-card&quot;
+  &gt;
+    &lt;mat-card-header class&#x3D;&quot;fav-header&quot;&gt;
+      &lt;mat-card-title class&#x3D;&quot;fav-title&quot;&gt;{{ favorite.Title }}&lt;/mat-card-title&gt;
+      &lt;mat-card-subtitle class&#x3D;&quot;fav-subtitle&quot;&gt;
+        Directed by: {{ favorite.Director.Name }}
+      &lt;/mat-card-subtitle&gt;
+    &lt;/mat-card-header&gt;
+    &lt;div class&#x3D;&quot;img-container&quot;&gt;
+      &lt;img src&#x3D;&quot;assets/reservoirdogs.jpeg&quot; alt&#x3D;&quot;{{ favorite.Title }}&quot; /&gt;
+    &lt;/div&gt;
+    &lt;mat-card-actions class&#x3D;&quot;fav-action&quot;&gt;
+      &lt;button
+        mat-button
+        color&#x3D;&quot;accent&quot;
+        id&#x3D;&quot;fav-action-btn&quot;
+        (click)&#x3D;&quot;openSynopsisDialog(favorite.Title, favorite.Description)&quot;
+      &gt;
+        Synopsis
+      &lt;/button&gt;
+      &lt;button
+        mat-button
+        color&#x3D;&quot;accent&quot;
+        id&#x3D;&quot;fav-action-btn&quot;
+        (click)&#x3D;&quot;
+          openGenreDialog(favorite.Genre.Name, favorite.Genre.Description)
+        &quot;
+      &gt;
+        Genre
+      &lt;/button&gt;
+      &lt;button
+        mat-button
+        color&#x3D;&quot;accent&quot;
+        id&#x3D;&quot;fav-action-btn&quot;
+        (click)&#x3D;&quot;
+          openDirectorDialog(
+            favorite.Director.Name,
+            favorite.Director.Bio,
+            favorite.Director.Birth,
+            favorite.Director.Death
+          )
+        &quot;
+      &gt;
+        Director
+      &lt;/button&gt;
+    &lt;/mat-card-actions&gt;
+  &lt;/mat-card&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./user-profile.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+}
+
+mat-card {
+  width: 500px;
+  background-color: grey;
+  color: white;
+  padding: 30px;
+}
+
+mat-card-header {
+  justify-content: center;
+  color: rgb(161, 7, 7);
+}
+
+mat-card-title {
+  font-size: 27px !important;
+}
+
+mat-card-content {
+  font-size: 16px;
+}
+
+mat-divider {
+  background-color: gray;
+  margin-top: 16px;
+}
+
+.content-container {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+mat-icon {
+  margin-right: 10px;
+  color: #d8afa2 !important;
+}
+
+#profile-title {
+  color: rgb(202, 167, 8);
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.edit-btn {
+  color: rgb(202, 167, 8);
+  background-color: black;
+  border: 2px solid rgb(202, 167, 8);
+  transition-duration: 0.2s;
+}
+.edit-btn:hover {
+  background-color: rgb(202, 167, 8);
+  color: black;
+}
+
+.delete-btn {
+  color: rgb(161, 7, 7);
+  background-color: black;
+  border: 2px solid rgb(161, 7, 7);
+  transition-duration: 0.2s;
+}
+.delete-btn:hover {
+  background-color: rgb(161, 7, 7);
+  color: black;
+}
+.user-fav {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+.favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.favorite-card {
+  margin: 10px;
+  width: 195px;
+  background-color: black;
+}
+
+.img-container {
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  background-color: rgb(218, 216, 216);
+}
+.img-container img {
+  width: 185px;
+  height: 284px;
+  margin: 7px;
+}
+
+.fav-header {
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+}
+.fav-title {
+  font-size: 20px !important;
+  color: #ffffff;
+}
+.fav-subtitle {
+  color: #dadada;
+  font-size: 12px;
+}
+.fav-action {
+  margin-top: 10px;
+  display: flex;
+  height: 10px;
+}
+#fav-action-btn {
+  color: rgb(202, 167, 8) !important;
+}
+.mat-icon-button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+
+.remove-btn {
+  color: rgb(161, 7, 7) !important;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="profile-container">  <mat-card class="mat-elevation-z10">    <mat-card-header>      <mat-card-title>User Profile</mat-card-title>    </mat-card-header>    <mat-divider></mat-divider>    <div class="content-container">      <mat-card-content>        <mat-icon>person</mat-icon>        <span id="profile-title">Username: </span        >{{ user.Username }}</mat-card-content      >      <mat-card-content>        <mat-icon>email </mat-icon>        <span id="profile-title">Email: </span        >{{ user.Email }}</mat-card-content      >      <mat-card-content>        <mat-icon>cake</mat-icon>        <span id="profile-title">Birthday: </span        >{{ user.Birthday | date }}</mat-card-content      >    </div>    <mat-card-actions>      <button        mat-raised-button        class="edit-btn"        (click)="openEditProfileFormDialog()"      >        Edit Profile      </button>      <button mat-raised-button class="delete-btn" (click)="deleteUser()">        Delete User      </button>    </mat-card-actions>  </mat-card></div><mat-divider></mat-divider><h2 class="user-fav">Your Favorite Movies</h2><div class="favorites-container">  <mat-card    *ngFor="let favorite of FavMovies; let i = index"    class="favorite-card"  >    <mat-card-header class="fav-header">      <mat-card-title class="fav-title">{{ favorite.Title }}</mat-card-title>      <mat-card-subtitle class="fav-subtitle">        Directed by: {{ favorite.Director.Name }}      </mat-card-subtitle>    </mat-card-header>    <div class="img-container">      <img src="assets/reservoirdogs.jpeg" alt="{{ favorite.Title }}" />    </div>    <mat-card-actions class="fav-action">      <button        mat-button        color="accent"        id="fav-action-btn"        (click)="openSynopsisDialog(favorite.Title, favorite.Description)"      >        Synopsis      </button>      <button        mat-button        color="accent"        id="fav-action-btn"        (click)="          openGenreDialog(favorite.Genre.Name, favorite.Genre.Description)        "      >        Genre      </button>      <button        mat-button        color="accent"        id="fav-action-btn"        (click)="          openDirectorDialog(            favorite.Director.Name,            favorite.Director.Bio,            favorite.Director.Birth,            favorite.Director.Death          )        "      >        Director      </button>    </mat-card-actions>  </mat-card></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'DirectorCardComponent', 'selector': 'app-director-card'},{'name': 'EditProfileFormComponent', 'selector': 'app-edit-profile-form'},{'name': 'GenreCardComponent', 'selector': 'app-genre-card'},{'name': 'MovieCardComponent', 'selector': 'app-movie-card'},{'name': 'NavigationComponent', 'selector': 'app-navigation'},{'name': 'SynopsisCardComponent', 'selector': 'app-synopsis-card'},{'name': 'UserLoginFormComponent', 'selector': 'app-user-login-form'},{'name': 'UserProfileComponent', 'selector': 'app-user-profile'},{'name': 'UserRegistrationFormComponent', 'selector': 'app-user-registration-form'},{'name': 'WelcomePageComponent', 'selector': 'app-welcome-page'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'UserProfileComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'UserProfileComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
