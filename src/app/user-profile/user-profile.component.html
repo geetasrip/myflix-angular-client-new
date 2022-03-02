@@ -50,7 +50,7 @@
       </mat-card-subtitle>
     </mat-card-header>
     <div class="img-container">
-      <img src="/assets/reservoirdogs.jpeg" alt="{{ favorite.Title }}" />
+      <img src="assets/reservoirdogs.jpeg" alt="{{ favorite.Title }}" />
     </div>
     <mat-card-actions class="fav-action">
       <button
@@ -87,12 +87,5 @@
         Director
       </button>
     </mat-card-actions>
-
-    <button
-      mat-icon-button
-      (click)="removeFavoriteMovie(favorite._id, favorite.title)"
-    >
-      <mat-icon class="remove-btn">remove_circle</mat-icon>
-    </button>
   </mat-card>
 </div>
